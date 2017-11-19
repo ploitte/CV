@@ -1,0 +1,46 @@
+#profil{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#lTop{
+    height: 50%;
+    width: 100%;
+}
+
+#lBot{
+    height: 50%;
+    width: 100%;
+}
+
+#rTop{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#rBot{
+    height: 60%;
+    width: 100%;
+}
+
+

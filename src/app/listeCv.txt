@@ -1,0 +1,14 @@
+language: 
+    -html
+    -css
+    -js
+    -html
+
+other:
+    -gulp
+    -git
+    -nodejs
+    -typescript
+    -cordova
+    -ionic
+    -jquery

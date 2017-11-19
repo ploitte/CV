@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "coolVet";
+	src: url('../assets/fonts/coolvetica.ttf');
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "coolVet";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#menu table{
+    width: 70%;
+}
+
+#menu table tr td{
+    text-align: center;
+    background-color: brown;
+    width: 20%;
+    padding: 1% 0 1% 0;
+}
+
+#menu table tr td:hover{
+    transform: scale(0.9);
+    opacity: 0.7;
+}
