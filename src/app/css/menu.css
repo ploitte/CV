@@ -18,7 +18,7 @@ a{
     font-family: "coolVet";
     font-size: 24px;
     font-weight: bold;
-    background: grey;
+    background: black;
 }
 
 #menu table{
@@ -30,6 +30,7 @@ a{
     background-color: brown;
     width: 20%;
     padding: 1% 0 1% 0;
+    margin: 10px;
 }
 
 #menu table tr td:hover{

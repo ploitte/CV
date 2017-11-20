@@ -85,16 +85,16 @@
 }
 
 #rTop{
-    height: 50%;
+    height: 30%;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
 
 #rBot{
-    height: 50%;
+    height: 70%;
     width: 100%;
 }
 
@@ -111,6 +111,10 @@
     width: 150px;
     background-color: red;
     border-radius: 50%;
+}
+
+#html{
+    color: red;
 }
 
 
