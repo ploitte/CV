@@ -2,7 +2,7 @@ language:
     -html
     -css
     -js
-    -html
+    -php
 
 other:
     -gulp

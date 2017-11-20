@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    font-family: "coolVet";
 }
 
 #left{
@@ -10,6 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    background: aliceblue;
 }
 
 #right{
@@ -23,24 +25,92 @@
 #lTop{
     height: 50%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+#lTop h2{
+    margin: 2%;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 #lBot{
     height: 50%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contInf{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contRs{
+    height: 30%;
+    width: 100%;
+}
+
+#lBot h2{
+    margin: 1%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#contRs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contRs img{
+    margin: 3%;
+}
+
+.rsIcon{
+    height: 32px;
+    width: 32px;
 }
 
 #rTop{
-    height: 40%;
+    height: 50%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
 }
 
 #rBot{
-    height: 60%;
+    height: 50%;
     width: 100%;
+}
+
+#photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("../assets/img/profil.png");
+    background-size: cover;
+}
+
+.rond{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
 }
 
 

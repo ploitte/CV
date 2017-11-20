@@ -1,10 +1,30 @@
 <div class="main" id="profil">
     <div id="left">
-        <div id="lTop"></div>
-        <div id="lBot"></div>      
+        <div id="lTop">
+            <div id="photo"></div>
+            <h2>Web/App<br>Developpeur</h2>
+        </div>
+        
+        <div id="lBot">
+            <div id="contInf">
+                <h2>Lucas Rosinol</h2>
+                <h2>24 ans</h2>
+                <h2>lucrosinol@gmail.com</h2>
+                <h2>06.71.01.07.18</h2>
+            </div>
+            <div id="contRs" >
+                <img  *ngFor="let a of rsTab" src="{{a}}" class="rsIcon">
+            </div>
+
+        </div>      
     </div>
     <div id="right">
-        <div id="rTop"></div>
+        <div id="rTop">
+            <div class="rond" id="html"></div>
+            <div class="rond" id="css"></div>
+            <div class="rond" id="js"></div>
+            <div class="rond" id="php"></div>
+        </div>
         <div id="rBot"></div>
     </div>
 </div>

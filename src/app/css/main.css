@@ -1,7 +1,12 @@
+@font-face {
+	font-family: "coolVet";
+	src: url('../assets/fonts/coolvetica.ttf');
+}
+
 .main{
     height: 90%;
-    width: 100%;;
-    background-color: red;
+    width: 100%;
+    background-color: grey;
     overflow: hidden;
     display: flex;
     justify-content: center;

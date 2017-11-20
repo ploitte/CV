@@ -9,17 +9,26 @@ import { Component } from '@angular/core';
 
 export class ProfilComponent{
 
-    public iconTab:any = [
+    public rsTab:any = [
+        this.setUrlIcon("twitter"),
+        this.setUrlIcon("facebook"),
+        this.setUrlIcon("linkedin"),
+        this.setUrlIcon("github")
+    ];
 
-        {
-            name: "",
-            url: ""
-        }
+    constructor(){
+        this.testLog();
+    }
 
-    ]
+    testLog(){
+        for(let a of this.rsTab)
+        console.log(a);
+    }
 
-    constructor(){}
-
+    setUrlIcon(arg1:string):string{
+        let url:string = "../assets/icons/" + arg1 + ".png";
+        return url;
+    }
 
 
 }
